@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Australian-Structural-Biology-Computing/wisps** is a bioinformatics pipeline for interaction screening by structure prediction. It ingests a samplesheet of sequence entries (FASTA format) and generates interaction sets based on all-vs-all or group-based modes. The workflow then runs MSA/search and structure prediction with supported models (Boltz, ColabFold, and/or AlphaFold3), computes confidence/interface metrics (including IPSAE), and produces per-interaction result files alongside run-level reports such as MultiQC.
+**AustralianBioCommons/sbp-wisps** is a bioinformatics pipeline for interaction screening by structure prediction. It ingests a samplesheet of sequence entries (FASTA format) and generates interaction sets based on all-vs-all or group-based modes. The workflow then runs MSA/search and structure prediction with supported models (Boltz, ColabFold, and/or AlphaFold3), computes confidence/interface metrics (including IPSAE), and produces per-interaction result files alongside run-level reports such as MultiQC.
 
 - Validate and parse sequence inputs from the samplesheet (FASTA).
 - Build interaction sets in manual, all-vs-all or group-based screening mode.
@@ -64,7 +64,7 @@ In this file, each row represents a single unit (can contain multiple sequences)
 Now, to model molecules in group A partnered with molecules in group B you can run the pipeline using:
 
 ```bash
-nextflow run Australian-Structural-Biology-Computing/wisps \
+nextflow run AustralianBioCommons/sbp-wisps \
    --input ./samplesheet.csv \
    --outdir ./results \
    --db WISPS-DB \
@@ -84,7 +84,7 @@ For more details about the output files and reports, please refer to the
 
 ## Credits
 
-Australian-Structural-Biology-Computing/wisps was originally written by [Ziad Al-Bkhetan](https://github.com/ziadbkh) and [Thomas Litfin](https://github.com/tlitfin/).
+AustralianBioCommons/sbp-wisps was originally written by [Ziad Al-Bkhetan](https://github.com/ziadbkh) and [Thomas Litfin](https://github.com/tlitfin/).
 
 We thank the following people for their extensive assistance in the development of this pipeline:
 

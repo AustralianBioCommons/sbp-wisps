@@ -1,4 +1,4 @@
-# Australian-Structural-Biology-Computing/wisps: Output
+# AustralianBioCommons/sbp-wisps: Output
 
 ## Introduction
 

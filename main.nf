@@ -1,9 +1,9 @@
 #!/usr/bin/env nextflow
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Australian-Structural-Biology-Computing/wisps
+    AustralianBioCommons/sbp-wisps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Github : https://github.com/Australian-Structural-Biology-Computing/wisps
+    Github : https://github.com/AustralianBioCommons/sbp-wisps
 ----------------------------------------------------------------------------------------
 */
 /*
