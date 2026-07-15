@@ -4,12 +4,9 @@ name: nf-core AWS full size tests
 # It runs the -profile 'test_full' on AWS batch
 
 on:
-  pull_request:
-    branches:
-      - master
+  # CI tests disabled: auto-triggers removed so this runs only when started
+  # manually. Restore pull_request/pull_request_review below to re-enable.
   workflow_dispatch:
-  pull_request_review:
-    types: [submitted]
 
 jobs:
   run-platform:
